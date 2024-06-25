@@ -1,0 +1,37 @@
+{
+  "development": {    
+    "username": "postgres",
+    "password": "postgres",
+    "database": "backend_checklist",
+    "host": "localhost",
+    "port": "5432",
+    "dialect": "postgres",
+    "timezone" : "Asia/Jakarta",
+    "logging": true,
+    "connectTimeout": 120000,     
+    "tokenDefault": "eyJhbGciOiJIUzI1NiJ9.eyJhcHAiOiJhYnNlbnNpIGJhc3lzIiwicGFzc3dvcmQiOiJ3ZWxjb21lMSIsInVzZXJuYW1lIjoiYWRtaW5iYXN5cyJ9.RNc2GzBDqIQTiBItqUM_WMkrW5Pa6rmGzyzFSUBUmUE",     
+    "dialectOptions_real": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    },
+    "dialectOptions": {},
+    "pool": {
+        "max": 200,
+        "min": 0,
+        "idle": 40000
+    },
+    "app" : {
+      "host" : "localhost",
+      "port" : 3500,
+      "jwtsecret": "9c88fe0020de1f6f36c859cdbb366d76e6196f8df01bbdaf2ae31c778efa2289"
+    },
+    "jwt": {
+      "secret": "9c88fe0020de1f6f36c859cdbb366d76e6196f8df01bbdaf2ae31c778efa2289"
+    },
+    "directory": {
+      "url": "http://localhost:3500"
+    }
+  }
+}
