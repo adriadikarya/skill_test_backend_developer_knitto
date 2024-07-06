@@ -3,13 +3,11 @@ const moment = require('moment');
 const cors = require('cors');
 const morganBody = require('morgan-body');
 const {errorHandler} = require('./core/error_handler');
-const multer = require('multer');
-const upload = multer();
 const app = express();
 const fs = require('fs');
 const path = require('path');
 const winston = require('winston');
-const routes = require('./routes/auth');
+const routes = require('./routes/routes');
 
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
