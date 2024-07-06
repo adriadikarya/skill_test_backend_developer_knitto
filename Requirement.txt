@@ -1,7 +1,0 @@
-Platform:
-1. Node JS (Express)
-2. MySQL
-3. Sequelize
-
-Port: 3500
-Link: http://localhost:3500/customer-numbers-classic-cars

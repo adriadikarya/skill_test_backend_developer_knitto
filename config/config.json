@@ -1,11 +1,11 @@
 {
   "development": {    
-    "username": "root",
-    "password": "",
-    "database": "classicmodels",
+    "username": "postgres",
+    "password": "postgres",
+    "database": "backend_checklist",
     "host": "localhost",
-    "port": "3306",
-    "dialect": "mysql",
+    "port": "5432",
+    "dialect": "postgres",
     "timezone" : "Asia/Jakarta",
     "logging": true,
     "connectTimeout": 120000,     
